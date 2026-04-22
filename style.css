@@ -28,7 +28,7 @@
 
 header {
     background-color: #FFDBDB;
-   padding: 10px 20px;
+    padding: 10px 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -76,13 +76,13 @@ body {
 
 main {
     background-color: #E3E3E3;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .map {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     overflow: auto;
 }
 
@@ -151,6 +151,7 @@ main {
 
 .small-caption {
     Padding: 0px 20px 0px 20px;
+    margin: 5px;
 }
 
 
@@ -173,7 +174,7 @@ p {
     background-color: rgba(134, 144, 152, 0.45);
     justify-content: center;
     align-items: center;
-    padding: 80px 5px 0px 0px;
+    padding: 40px 0px 40px 0px;
 }
 
   .images-container {
@@ -225,27 +226,50 @@ p {
     width: 100%;
     max-width: 760px;
   
-    background-color: #E3E3E3;
+    background-color: white;
 
-    text-align: center;
+    text-align: left;
     color: black;
     padding: 20px;
-    font-size: 1.5rem;
+    font-size: 18px;
    
     display: block;
     -webkit-line-clamp: unset;
     overflow: visible;
   }
 
+  /* //////////////////Footer////////////////////////// ///*/
+
+footer {
+  display: none;
+}
+
+.footer-block {
+  background-color: #FFDBDB;;
+  text-align: center;
+}
+
+.footer-text {
+  margin: 0px;
+  padding: 20px 10px;
+}
 
 
-/* //////////////////Responsive Styling////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////
+/* //////////////////Responsive Styling////////////////////////// ///*/
+
+
+
+/* ///////////////////////Mobile///////////////////////////////////// */
 
 @media screen and (max-width: 759px) {
 
+footer {
+  display: block;
+}
+
 header {
   display: flex;
-  flex-direction: column;
   align-items: center;
   padding: 15px;
 }
@@ -260,12 +284,35 @@ header {
  }
 
  .header-text .bio {
-    font-size: 14px;
+  display: none;  
  }
 
- .social-icons {
-  display: none;
- }
+
+#lines-svg, #dots-svg {
+      display: none;
+    }
+
+.map {
+  max-width: 600px;
+  height: auto;
+}
+
+.projects-container {
+  position: static; 
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 25px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+
+}
+
+.blocks {
+  position: static !important;
+}
+
+/* ///////////////////Modal Mobile Styling///////////////////////// */
 
 
  .images-container {
@@ -304,6 +351,8 @@ header {
     width: 35px;
   }
 }
+
+/* ///////////////////////Laptop///////////////////////////////////// */
 
 @media screen and (max-width: 1280px) {
 

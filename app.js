@@ -40,7 +40,7 @@ const projects = [
         title: "Graphic Design",
         image: "/images/graphic-design.jpg",
         caption: "Overseeing photo & video, managing creative feedback and project planning through Asana. Photography and set direction, including model selection, styling, and brand guidelines.",
-        top: "600px",
+        top: "500px",
         left: "109px",
         dotEdge: "right",
         connectionEdges: {
@@ -67,7 +67,7 @@ const projects = [
         id: "social-media-block",
         title: "Social Media Strategy",
         image: "/images/social.jpg",
-        caption: " I launched my eco-fashion instagram account in 2014 after noticing a gap – few fashion creators were talking about sustainability. Through my content, I showed how shopping less, embracing hand-me-downs, and buying secondhand could make space for still playing with new trends – harming the planet. I helped shape the sustainability conversation through my visual design background. This led me to marketing strategy roles, where I managed marketing strategy and teams of up to 5 direct reports. I've worked with brands like Tradlands, For Days, luxury resale startup Storey the App, and recycled leather goods brand Hyer Goods, driving growth and engagement in the sustainable fashion space.",
+        caption: " I launched my eco-fashion instagram account in 2014 after noticing a gap – few fashion creators were talking about sustainability. Through my content, I showed how shopping less, embracing hand-me-downs, and buying secondhand could make space for still playing with new trends without harming the planet. I helped shape the sustainability conversation through my visual design background. This led me to marketing strategy roles, where I managed marketing strategy and teams of up to 5 direct reports. I've worked with brands like Tradlands, For Days, luxury resale startup Storey the App, and recycled leather goods brand Hyer Goods, driving growth and engagement in the sustainable fashion space.",
         top: "200px",
         left: "450px",
         dotEdge: ["left", "bottom","right"],
@@ -84,7 +84,7 @@ const projects = [
         title: "eCommerce Site Optimization",
         image: "/images/ecommerce.png",
         caption: "I optimize eCommerce experiences end-to-end, focusing on both performance and usability. I’ve led improvements across site navigation, product pages, and overall user experience on Shopify, using data-driven insights to increase conversion rates and customer engagement. My work includes coordinating with paid media partners to improve return on ad spend, aligning site performance with campaign strategy, and ensuring a consistent, high-quality brand experience across all touchpoints.",
-        top: "45px",
+        top: "25px",
         left: "850px",
         dotEdge: ["left","right", "bottom"],
         connectionEdges: {
@@ -99,8 +99,8 @@ const projects = [
         title: "Search & LLM Optimization",
         image: "/images/seo.jpg",
         caption: "Case Study: A top Chicagoland employer serving Fortune 100 businesses was targeting the wrong  terms. By analyzing what phrases had the most search volume, I brought their website to the first page for over 30 search terms previously missing, increasing website traffic by 120%.",
-        top: "650px",
-        left: "1000px",
+        top: "500px",
+        left: "900px",
         dotEdge: ["top"],
         connectionEdges: {
             // "ecommerce" : "bottom",
