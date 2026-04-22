@@ -239,8 +239,7 @@ p {
 
 
 
-/* ///////////////////////Responsive Styling////////////////////////// */
-
+/* //////////////////Responsive Styling////////////////////////// */
 
 @media screen and (max-width: 759px) {
 
@@ -304,4 +303,42 @@ header {
     left: 570px;
     width: 35px;
   }
+}
+
+@media screen and (max-width: 1280px) {
+
+.blocks {
+    width: 240px;
+
+    background-color: white;
+   
+    border-radius: 10px;
+    overflow: hidden;
+
+    z-index: 1;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+.blocks:hover {
+    transform: translateY(-5px);
+  }
+
+  
+.images {
+    position: relative;
+  }
+
+
+.cover-image {
+    width:240px;
+    height:150px;
+    border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
+
+    object-position: 20% 15%;
+} 
+
 }
