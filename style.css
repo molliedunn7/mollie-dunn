@@ -131,7 +131,7 @@ h3 {
 
 .cover-image {
     width:240px;
-    height:150px;
+    height:170px;
     border-radius: 10px 10px 0px 0px;
     object-fit: cover;
 
@@ -140,6 +140,14 @@ h3 {
 
 #social-media-block .cover-image {
   object-position: 10% 40%;
+}
+
+#graphic-design-block .cover-image {
+  object-position: 10% 40%;
+}
+
+#ppc .cover-image {
+  object-position: 10% 25%;
 }
 
 .icons {
@@ -254,7 +262,7 @@ footer {
 .footer-text {
   font-size: medium;
   margin: 0px;
-  padding: 20px 10px;
+  padding: 20px 15px;
 }
 
 
@@ -298,6 +306,10 @@ header {
 #lines-svg, #dots-svg {
       display: none;
     }
+
+#dots-svg {
+  width: 10%;
+}
 
 .map {
   max-width: 600px;

@@ -40,7 +40,7 @@ const projects = [
         title: "Graphic Design",
         image: "images/graphic-design.jpg",
         caption: "Crafting standout print and digital designs appealing to Fortune 100 prospects, aiding and enabling sales conversations.",
-        top: "500px",
+        top: "400px",
         left: "109px",
         dotEdge: "right",
         connectionEdges: {
@@ -54,7 +54,7 @@ const projects = [
         title: "Photoshoot Creative Direction",
         image: "images/94d82446-887c-4ef2-806a-c80adc6b5aa6_rw_3840.jpg",
         caption: "I lead creative direction for photoshoots with a focus on translating brand strategy into clear, compelling visuals. This includes planning concepts, managing shot lists, and guiding photographers and stylists to ensure consistency across web, email, and social. From concept development to on-set direction, I work closely with photographers and creatives to produce assets that are both visually consistent and effective in driving engagement.",
-        top: "60px",
+        top: "40px",
         left: "50px",
         dotEdge: "right",
         connectionEdges: {
@@ -68,8 +68,8 @@ const projects = [
         title: "Social Media Strategy",
         image: "images/social.jpg",
         caption: " I launched my eco-fashion instagram account in 2014 after noticing a gap – few fashion creators were talking about sustainability. Through my content, I showed how shopping less, embracing hand-me-downs, and buying secondhand could make space for still playing with new trends without harming the planet. I helped shape the sustainability conversation through my visual design background. This led me to marketing strategy roles, where I managed marketing strategy and teams of up to 5 direct reports. I've worked with brands like Tradlands, For Days, luxury resale startup Storey the App, and recycled leather goods brand Hyer Goods, driving growth and engagement in the sustainable fashion space.",
-        top: "200px",
-        left: "450px",
+        top: "140px",
+        left: "400px",
         dotEdge: ["left", "bottom","right"],
         connectionEdges: {
             "graphic-design-block" : "bottom",
@@ -84,8 +84,8 @@ const projects = [
         title: "eCommerce Site Optimization",
         image: "images/ecommerce.png",
         caption: "I optimize eCommerce experiences end-to-end, focusing on both performance and usability. I’ve led improvements across site navigation, product pages, and overall user experience on Shopify, using data-driven insights to increase conversion rates and customer engagement. My work includes coordinating with paid media partners to improve return on ad spend, aligning site performance with campaign strategy, and ensuring a consistent, high-quality brand experience across all touchpoints.",
-        top: "25px",
-        left: "850px",
+        top: "50px",
+        left: "750px",
         dotEdge: ["left","right", "bottom"],
         connectionEdges: {
             "seo" : "bottom",
@@ -97,10 +97,10 @@ const projects = [
     {
         id: "seo",
         title: "Search & LLM Optimization",
-        image: "images/seo.jpg",
+        image: "images/SEO.jpg",
         caption: "Case Study: A top Chicagoland employer serving Fortune 100 businesses was targeting the wrong  terms. By analyzing what phrases had the most search volume, I brought their website to the first page for over 30 search terms previously missing, increasing website traffic by 120%.",
-        top: "500px",
-        left: "900px",
+        top: "400px",
+        left: "800px",
         dotEdge: ["top"],
         connectionEdges: {
             // "ecommerce" : "bottom",
@@ -112,9 +112,9 @@ const projects = [
         id: "ppc",
         title: "PPC",
         image: "images/ppc.jpeg",
-        caption: "Pay per Click Success for small to mid-sized business. I build and optimize PPC campaigns across Google, Meta, and LinkedIn with a focus on improving lead quality, aligning campaigns with revenue goals, and creating a system where paid media supports a broader growth engine.",
+        caption: "Pay Per Click success for mid-sized business. I build and optimize PPC campaigns across Google, Meta, and LinkedIn with a focus on improving lead quality, aligning campaigns with revenue goals, and creating a system where paid media supports a broader growth engine.",
         top: "150px",
-        left: "1300px",
+        left: "1100px",
         dotEdge: "left",
         connectionEdges: {
             // "ecommerce" : "left"
@@ -198,11 +198,11 @@ function drawConnections() {
     const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
         circle.setAttribute('cx', dot.x);
         circle.setAttribute('cy', dot.y);
-        circle.setAttribute('r', '5');
+        circle.setAttribute('r', '3');
         circle.setAttribute('fill', 'black');
         dotsSvg.appendChild(circle);
 });
-        // draw lines using connectionEdges for each specific target
+    // draw lines using connectionEdges for each specific target
         if (project.connectionEdges) {
             project.connections.forEach(function(targetId) {
                 const toProject = projects.find(function(p) { return p.id === targetId; });
