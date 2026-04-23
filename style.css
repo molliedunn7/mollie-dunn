@@ -76,7 +76,6 @@ body {
 
 main {
     background-color: #E3E3E3;
-    /* min-height: 100vh; */
 }
 
 .map {
@@ -268,6 +267,11 @@ footer {
 
 @media screen and (max-width: 759px) {
 
+.map {
+  height: auto !important;
+}
+
+
 footer {
   display: block;
 }
@@ -284,7 +288,6 @@ header {
     flex-direction: column;
     text-align: center;
     gap: 5px;
-
  }
 
  .header-text .bio {
@@ -307,9 +310,8 @@ header {
   grid-template-columns: 1fr 2fr;
   gap: 25px;
   padding: 20px;
-  max-width: 600px;
+  width: 100%;
   margin: 0 auto;
-
 }
 
 .blocks {
