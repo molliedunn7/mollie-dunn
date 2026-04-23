@@ -39,7 +39,7 @@ const projects = [
         id: "graphic-design-block",
         title: "Graphic Design",
         image: "/images/graphic-design.jpg",
-        caption: "Overseeing photo & video, managing creative feedback and project planning through Asana. Photography and set direction, including model selection, styling, and brand guidelines.",
+        caption: "Crafting standout print and digital designs appealing to Fortune 100 prospects, aiding and enabling sales conversations.",
         top: "500px",
         left: "109px",
         dotEdge: "right",
@@ -117,9 +117,9 @@ const projects = [
         left: "1300px",
         dotEdge: "left",
         connectionEdges: {
-            "ecommerce" : "left"
+            // "ecommerce" : "left"
         },
-        connections: ["ecommerce"]
+        // connections: ["ecommerce"]
     },
 ]
 
@@ -172,6 +172,9 @@ function getDotPosition(card, edge) {
         return { x: x + rect.width / 2, y: y + rect.height };
     }
 }
+
+
+/////////////// I wish I had coded this so that it uses if - find the closest edge - then draw the dot and connect the lines between them. And even tag each card based on specific skills and make the links happen that way - if card has this specific skill tagged - link to nearest edge. But I just thought of this today the day its due so. //////////////////////////
 
 function drawConnections() {
     const linesSvg = document.getElementById('lines-svg');
