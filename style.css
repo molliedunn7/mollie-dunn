@@ -37,6 +37,10 @@ header {
     gap: 15px;
 }
 
+.bio {
+  font-size: 15px; 
+}
+
 .header-text {
 
   display: flex;
