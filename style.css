@@ -27,18 +27,35 @@
     
 
 header {
-    background-color: #FFDBDB;
+    background-color: #f3a5a7;
     padding: 10px 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
     gap: 15px;
 }
 
+header a {
+  text-decoration: none;
+}
 .bio {
   font-size: 15px; 
+}
+
+
+.fulfilledthrift
+{
+  font-size: 15px; 
+  color:#ffffff;
+  font-weight: bold;
+  text-decoration: none;
+ 
+}
+
+
+.fulfilledthrift a {
+  text-decoration: none;
 }
 
 .header-text {
