@@ -294,7 +294,7 @@ footer {
 
 /* ///////////////////////Mobile///////////////////////////////////// */
 
-@media screen and (max-width: 759px) {
+@media screen and (max-width: 650px) {
 
 .map {
   height: auto !important;
