@@ -81,9 +81,9 @@ const projects = [
 
     {
         id: "ecommerce",
-        title: "eCommerce Site Optimization",
+        title: "Shopify + eCommerce",
         image: "images/ecommerce.png",
-        caption: "I optimize eCommerce experiences using data-driven insights to increase conversion rates and customer engagement. This includes coordinating with paid media partners to improve return on ad spend, aligning site performance with campaign strategy, and ensuring consistent, high-quality brand assets across all touchpoints.",
+        caption: "I work directly in Shopify—not just from the marketing side, but in the storefront itself. I’m comfortable working with themes, Liquid and CSS, building landing pages, updating product launches, merchandising collections, and improving the customer journey from acquisition through conversion.",
         top: "50px",
         left: "750px",
         dotEdge: ["left","right", "bottom"],
